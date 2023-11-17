@@ -1,0 +1,16 @@
+#commandTableBody {
+    max-height: 300px; /* Đặt chiều cao tối đa của bảng để tạo thanh cuộn */
+    overflow-y: auto; /* Tự động tạo thanh cuộn khi nội dung vượt quá chiều cao */
+}
+.navbar-brand {
+    width: 50%;
+    
+}
+.navbar-nav .nav-link {
+    font-size: 13px;
+}
+.navbar-brand img {
+    width: 40%;
+    height: auto; /* Chiều cao tự động điều chỉnh để giữ tỷ lệ */
+    display: block; /* Loại bỏ khoảng trắng dưới ảnh */
+}
